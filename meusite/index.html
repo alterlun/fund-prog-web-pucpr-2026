@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja de Livros</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Menu lateral -->
+    <div class="sidebar">
+        <a class="active" href="index.html">Home</a>
+        <a href="form.html">Cadastro</a>
+        <a href="about.html">Sobre</a>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="content">
+        <h2 class="titleTop">Loja de Livros</h2>
+        <h3 class="titleBottom">Catálogo</h3>
+
+        <div class="first">
+            <div class="menu">
+                <img class="imgStamp" src="images/book1.jpg" alt="Livro 1">
+                <input class="modalButton" type="button" value="Saiba mais..." id="Book1Button">
+            </div>
+            <div class="menu">
+                <img class="imgStamp" src="images/book2.jpg" alt="Livro 2">
+                <input class="modalButton" type="button" value="Saiba mais..." id="Book2Button">
+            </div>
+            <div class="menu">
+                <img class="imgStamp" src="images/book3.jpg" alt="Livro 3">
+                <input class="modalButton" type="button" value="Saiba mais..." id="Book3Button">
+            </div>
+        </div>
+
+        <div class="second">
+            <div class="menu">
+                <img class="imgStamp" src="images/book4.jpg" alt="Livro 4">
+                <input class="modalButton" type="button" value="Saiba mais..." id="Book4Button">
+            </div>
+            <div class="menu">
+                <img class="imgStamp" src="images/book5.jpg" alt="Livro 5">
+                <input class="modalButton" type="button" value="Saiba mais..." id="Book5Button">
+            </div>
+            <div class="menu">
+                <img class="imgStamp" src="images/book6.jpg" alt="Livro 6">
+                <input class="modalButton" type="button" value="Saiba mais..." id="Book6Button">
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Detalhes -->
+    <div id="knowMore" class="modal">
+        <header>
+            <span id="closeModalButton" class="topright">X</span>
+        </header>
+        <div>
+            <p id="txt1" class="infoH"></p>
+            <p id="txt2" class="info"></p>
+            <p id="txt3" class="info"></p>
+        </div>
+    </div>
+
+    <!-- Referência ao arquivo Javascript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
